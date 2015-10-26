@@ -1,0 +1,43 @@
+{
+  "name": "hub-bin",
+  "version": "0.0.0",
+  "description": "Binary wrapper for Hub - hub helps you win at git. http://hub.github.com/",
+  "license": "MIT",
+  "repository": "thejameskyle/hub-bin",
+  "author": {
+    "name": "James Kyle",
+    "email": "me@thejameskyle.com",
+    "url": "github.com/thejameskyle"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "npm run postinstall && xo && ava",
+    "postinstall": "node lib/install.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "bin-wrapper": "^2.0.0",
+    "logalot": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "bin-check": "^3.0.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
