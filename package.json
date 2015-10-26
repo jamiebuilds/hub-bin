@@ -1,6 +1,6 @@
 {
   "name": "hub-bin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Binary wrapper for Hub - hub helps you win at git. http://hub.github.com/",
   "license": "MIT",
   "repository": "thejameskyle/hub-bin",
