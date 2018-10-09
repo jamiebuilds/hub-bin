@@ -18,6 +18,7 @@
     "postinstall": "node lib/install.js"
   },
   "files": [
+    "lib",
     "index.js",
     "cli.js"
   ],
